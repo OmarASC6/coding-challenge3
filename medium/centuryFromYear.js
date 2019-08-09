@@ -21,7 +21,6 @@ function centuryYear(year){
       return ((year + 100) - remainder) / 100;
     }
   }
-  centuryYear(2019);
-
+  console.log(centuryYear(2019));
 
 

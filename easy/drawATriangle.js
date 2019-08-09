@@ -15,7 +15,7 @@ console.log(triangle(5)) // returns "*
 */
 function triangle(n) {
     let x, y, z;
-    for (x = 0; x <= 10; x++) {
+    for (x = 0; x <= 10000000; x++) {
         for (y = 0; y < x; y++) {
             z = z + ("*");
         }

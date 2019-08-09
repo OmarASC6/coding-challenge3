@@ -11,7 +11,16 @@
 		console.log(opposite(-24)) // output: 24
 		console.log(opposite(0)) // ouput: 0
 */
-let number = 9
+
+function(integer){
+let number = 90
+if (number == 0 ){
+	console.log("Zero does not have an opposite, go study math")
+}
+else{
  console.log(-number)
+}
+
+}
 
 //===============================================
